@@ -1,4 +1,8 @@
 body {
+    background-image: url('background.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -8,6 +12,7 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
+
 
 h1 {
     margin-bottom: 20px;
@@ -35,6 +40,13 @@ h1 {
 .status {
     margin-top: 20px;
     font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold; /* Makes the text bold */
+    border: 2px solid #FFFFFF; /* Adds a solid white border */
+    padding: 10px; /* Adds some padding inside the border */
+    border-radius: 5px; /* Rounds the corners of the border */
+    background-color: #48242d; /* Beige background color inside the border */
+    text-align: center; /* Centers the text inside the status box */
 }
 
 button {
